@@ -14,7 +14,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack'
 import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline'
 import EditIcon from '@mui/icons-material/Edit'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:4000'
+const API_URL = import.meta.env.VITE_API_URL || 'http://144.91.96.60:4000'
 
 export const Route = createFileRoute('/movies/$movieId')({
   component: MovieDetailPage,

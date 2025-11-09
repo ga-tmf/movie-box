@@ -6,7 +6,7 @@ import SaveAltIcon from '@mui/icons-material/SaveAlt'
 import { useCallback, useState } from 'react'
 import type { Movie } from '@/types/movie'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:4000'
+const API_URL = import.meta.env.VITE_API_URL || 'http://144.91.96.60:4000'
 
 const movieSchema = z.object({
   title: z.string().min(1, 'Title is required').max(100, 'Title is too long'),

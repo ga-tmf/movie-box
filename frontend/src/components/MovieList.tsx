@@ -4,7 +4,7 @@ import type { Movie } from '@/types/movie'
 import BrokenImageIcon from '@mui/icons-material/BrokenImage'
 import { useState } from 'react'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:4000'
+const API_URL = import.meta.env.VITE_API_URL || 'http://144.91.96.60:4000'
 
 interface MovieListProps {
   movies: Movie[]
