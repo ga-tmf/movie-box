@@ -73,7 +73,7 @@ export const useMovieStore = create<MovieStore>()(set => ({
     try {
       const updatedMovie = await movieService.update(id, movie, poster)
       set(state => ({
-        movies: state.movies.map(m => (m.id === id ? updatedMovie : m)),
+        movies: state.movies?.map(m => (m.id === id ? updatedMovie : m)),
         isLoading: false,
       }))
     } catch (error: any) {

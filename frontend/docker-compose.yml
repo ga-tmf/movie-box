@@ -9,6 +9,7 @@ services:
       - '3000:80'
     environment:
       - NODE_ENV=production
+      - VITE_API_URL=http://144.91.96.60:4000
     restart: unless-stopped
     networks:
       - movie-box-network

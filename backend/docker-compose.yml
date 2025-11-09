@@ -35,7 +35,7 @@ services:
       DB_DATABASE: ${DB_DATABASE:-moviebox}
       JWT_SECRET: ${JWT_SECRET:-your-secret-key}
       JWT_EXPIRATION: ${JWT_EXPIRATION:-7d}
-      FRONTEND_URL: ${FRONTEND_URL:-http://localhost:3000}
+      FRONTEND_URL: ${FRONTEND_URL:-http://144.91.96.60:3000}
     volumes:
       - ./src:/app/src
       - ./uploads:/app/uploads
