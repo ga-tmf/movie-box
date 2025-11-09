@@ -34,10 +34,10 @@ function MovieDetailPage() {
 
   // Fetch movies if not already loaded
   useEffect(() => {
-    if (isAuthenticated && movies.length === 0) {
+    if (isAuthenticated && movies?.length === 0) {
       fetchMovies()
     }
-  }, [isAuthenticated, movies.length, fetchMovies])
+  }, [isAuthenticated, movies?.length, fetchMovies])
 
   if (!isAuthenticated) {
     return null

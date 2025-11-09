@@ -103,7 +103,7 @@ function HomePage() {
     )
   }
 
-  if (movies.length === 0) {
+  if (movies?.length === 0) {
     return (
       <Container maxWidth="xl" sx={{ py: 4 }}>
         <Box

@@ -39,7 +39,7 @@ export function MovieList({
           gap: 3, // 24px gutter (3 * 8)
         }}
       >
-        {movies.map(movie => (
+        {movies?.map(movie => (
           <Link
             key={movie.id}
             to="/movies/$movieId"
@@ -177,7 +177,7 @@ export function MovieList({
           </Button>
 
           <Box sx={{ display: 'flex', gap: 1, alignItems: 'center' }}>
-            {Array.from({ length: totalPages }, (_, i) => i + 1).map(page => (
+            {Array.from({ length: totalPages }, (_, i) => i + 1)?.map(page => (
               <Button
                 key={page}
                 onClick={() => onPageChange(page)}
