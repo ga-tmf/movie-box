@@ -2,6 +2,12 @@
 
 A full-stack movie management application for adding, editing, and browsing movies with poster images.
 
+### Demo: http://144.91.96.60:3000/
+
+## Default Credentials
+- **Email**: demo@demo.com
+- **Password**: demo123
+
 ## Tech Stack
 
 - **Backend**: NestJS, TypeORM, PostgreSQL
@@ -53,7 +59,3 @@ JWT_SECRET=your-secret-key
 VITE_API_URL=http://localhost:4000
 ```
 
-## Default Credentials
-
-- **Email**: demo@demo.com
-- **Password**: demo123
