@@ -2,7 +2,7 @@
 
 A full-stack movie management application for adding, editing, and browsing movies with poster images.
 
-### Demo: http://144.91.96.60:3000/
+### Demo: http://x.x.x.x0:3000/
 
 ## Default Credentials
 - **Email**: demo@demo.com
